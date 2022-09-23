@@ -73,8 +73,8 @@ const {
   ThemeProvider,
 } = styledComponents as styledComponents.ReactNativeThemedStyledComponentsModule<ThemeInterface>;
 
-const withTheme = (element: ReactElement) => {
-  <ThemeProvider theme={theme}>{element}</ThemeProvider>;
-};
+const withTheme = (element: ReactElement) => (
+  <ThemeProvider theme={theme}>{element}</ThemeProvider>
+);
 
 export {styled, css, ThemeProvider, withTheme};

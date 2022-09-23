@@ -4,6 +4,7 @@ import styled from 'styled-components/native';
 type ButtonProps = {
   label: string;
   onPress: () => void;
+  buttonTestID?: string;
 };
 
 const ButtonContainer = styled.TouchableOpacity`
@@ -24,9 +25,13 @@ color:
 line-height:21px
 `;
 
-const SimpleButton: React.FC<ButtonProps> = ({label, onPress}) => {
+const SimpleButton: React.FC<ButtonProps> = ({
+  label,
+  onPress,
+  buttonTestID,
+}) => {
   return (
-    <ButtonContainer onPress={onPress}>
+    <ButtonContainer onPress={onPress} testID={buttonTestID}>
       <ButtonText>{label}</ButtonText>
     </ButtonContainer>
   );
