@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TestScreen renders correctly 1`] = `
+<RCTSafeAreaView
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "marginHorizontal": 20,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "marginVertical": 20,
+        },
+      ]
+    }
+  >
+    age: 0 name: noname
+  </Text>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#F8F8FA",
+        "flexDirection": "row",
+        "height": 56,
+        "justifyContent": "center",
+        "marginTop": 17,
+        "opacity": 1,
+        "width": "100%",
+      }
+    }
+    testID="simpleButtonTestID"
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#B3B5BD",
+            "fontFamily": "RobotoMono-Medium",
+            "fontSize": 16,
+            "lineHeight": 21,
+          },
+        ]
+      }
+    >
+      Call API
+    </Text>
+  </View>
+</RCTSafeAreaView>
+`;
+
+exports[`TestScreen renders correctly after user button press 1`] = `
+<RCTSafeAreaView
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "marginHorizontal": 20,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "marginVertical": 20,
+        },
+      ]
+    }
+  >
+    age: 70 name: michael
+  </Text>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#F8F8FA",
+        "flexDirection": "row",
+        "height": 56,
+        "justifyContent": "center",
+        "marginTop": 17,
+        "opacity": 1,
+        "width": "100%",
+      }
+    }
+    testID="simpleButtonTestID"
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#B3B5BD",
+            "fontFamily": "RobotoMono-Medium",
+            "fontSize": 16,
+            "lineHeight": 21,
+          },
+        ]
+      }
+    >
+      Call API
+    </Text>
+  </View>
+</RCTSafeAreaView>
+`;

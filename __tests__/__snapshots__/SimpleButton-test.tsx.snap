@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SimpleButton renders correctly 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F8F8FA",
+      "flexDirection": "row",
+      "height": 56,
+      "justifyContent": "center",
+      "marginTop": 17,
+      "opacity": 1,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#B3B5BD",
+          "fontFamily": "RobotoMono-Medium",
+          "fontSize": 16,
+          "lineHeight": 21,
+        },
+      ]
+    }
+  >
+    Test
+  </Text>
+</View>
+`;
